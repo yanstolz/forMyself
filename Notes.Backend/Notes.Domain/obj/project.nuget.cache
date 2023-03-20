@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "7kN18sJR/5JO12izHXWCyUME7SnuEyhxK/d15Ujdh7KYgHXntVhG+na2qVfQL2sC7UYAbAQKI6rTu3CGurxG8A==",
+  "success": true,
+  "projectFilePath": "C:\\work\\mindbox\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
