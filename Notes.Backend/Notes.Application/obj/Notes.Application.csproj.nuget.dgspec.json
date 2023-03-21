@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\work\\mindbox\\Notes.Backend\\Notes.Application\\Notes.Application.csproj": {}
+    "C:\\work\\forMyself\\Notes.Backend\\Notes.Application\\Notes.Application.csproj": {}
   },
   "projects": {
-    "C:\\work\\mindbox\\Notes.Backend\\Notes.Application\\Notes.Application.csproj": {
+    "C:\\work\\forMyself\\Notes.Backend\\Notes.Application\\Notes.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\mindbox\\Notes.Backend\\Notes.Application\\Notes.Application.csproj",
+        "projectUniqueName": "C:\\work\\forMyself\\Notes.Backend\\Notes.Application\\Notes.Application.csproj",
         "projectName": "Notes.Application",
-        "projectPath": "C:\\work\\mindbox\\Notes.Backend\\Notes.Application\\Notes.Application.csproj",
-        "packagesPath": "C:\\Users\\YanStolz\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\mindbox\\Notes.Backend\\Notes.Application\\obj\\",
+        "projectPath": "C:\\work\\forMyself\\Notes.Backend\\Notes.Application\\Notes.Application.csproj",
+        "packagesPath": "C:\\Users\\bocharoviv\\.nuget\\packages\\",
+        "outputPath": "C:\\work\\forMyself\\Notes.Backend\\Notes.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\YanStolz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bocharoviv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.bukep.ru/nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\work\\mindbox\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj": {
-                "projectPath": "C:\\work\\mindbox\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj"
+              "C:\\work\\forMyself\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj": {
+                "projectPath": "C:\\work\\forMyself\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj"
               }
             }
           }
@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.4, )"
@@ -59,52 +63,37 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\work\\mindbox\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj": {
+    "C:\\work\\forMyself\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\mindbox\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj",
+        "projectUniqueName": "C:\\work\\forMyself\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj",
         "projectName": "Notes.Domain",
-        "projectPath": "C:\\work\\mindbox\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj",
-        "packagesPath": "C:\\Users\\YanStolz\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\mindbox\\Notes.Backend\\Notes.Domain\\obj\\",
+        "projectPath": "C:\\work\\forMyself\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj",
+        "packagesPath": "C:\\Users\\bocharoviv\\.nuget\\packages\\",
+        "outputPath": "C:\\work\\forMyself\\Notes.Backend\\Notes.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\YanStolz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bocharoviv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.bukep.ru/nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -128,31 +117,16 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
