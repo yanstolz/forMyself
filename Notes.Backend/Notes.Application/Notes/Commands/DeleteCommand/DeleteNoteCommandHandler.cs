@@ -5,7 +5,7 @@ using Notes.Domain;
 
 namespace Notes.Application.Notes.Commands.DeleteCommand
 {
-    public class DeleteNoteCommandHandler : IRequestHandler<DeleteNoteCommand>
+    public class DeleteNoteCommandHandler : IRequest<DeleteNoteCommand>
     {
         private readonly INotesDbContext _dbContext;
         public DeleteNoteCommandHandler(INotesDbContext dbContext) =>
@@ -14,7 +14,7 @@ namespace Notes.Application.Notes.Commands.DeleteCommand
         {
             var entity = await _dbContext.Notes.FindAsync(new object[] { request.Id }, cancellationToken);
 
-            if(entity == null || entity.UserId== request.UserId)
+            if(entity == null || entity.UserId != request.UserId)
             {
                 throw new NotFoundException(nameof(Note), request.Id);
             }

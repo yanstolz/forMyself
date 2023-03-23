@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace Notes.Application.Notes.Commands.UpdateNote
 {
     public class UpdateNoteCommandHandler
-        : IRequestHandler<UpdateNoteCommand>
+        : IRequest<UpdateNoteCommand>
     {
         private readonly INotesDbContext _dbContext;
         public UpdateNoteCommandHandler(INotesDbContext dbContext) => _dbContext = dbContext;
