@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Ged/Gaz8xbRvB8am01+pVfEy/J4noxzii6e0y+sxOTdlLoviePYEiPkQ8ISVOHxFKx9nUTXA0kV6d6vnoXI20Q==",
+  "dgSpecHash": "DWdMt04ALhzgYDUscISQpqty3kLIeJTzPzDDJ80ZHYTaGPMp6OtwjLA2P4AkVnbIsLSW0wYAV5S+hZOv98KYaw==",
   "success": true,
   "projectFilePath": "C:\\work\\forMyself\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

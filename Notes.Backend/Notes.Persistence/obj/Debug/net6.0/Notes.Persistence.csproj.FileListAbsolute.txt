@@ -1,0 +1,17 @@
+C:\work\forMyself\Notes.Backend\Notes.Persistence\obj\Debug\net6.0\Notes.Persistence.csproj.AssemblyReference.cache
+C:\work\forMyself\Notes.Backend\Notes.Persistence\obj\Debug\net6.0\Notes.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\forMyself\Notes.Backend\Notes.Persistence\obj\Debug\net6.0\Notes.Persistence.AssemblyInfoInputs.cache
+C:\work\forMyself\Notes.Backend\Notes.Persistence\obj\Debug\net6.0\Notes.Persistence.AssemblyInfo.cs
+C:\work\forMyself\Notes.Backend\Notes.Persistence\obj\Debug\net6.0\Notes.Persistence.csproj.CoreCompileInputs.cache
+C:\work\forMyself\Notes.Backend\Notes.Persistence\bin\Debug\net6.0\Notes.Persistence.deps.json
+C:\work\forMyself\Notes.Backend\Notes.Persistence\bin\Debug\net6.0\Notes.Persistence.dll
+C:\work\forMyself\Notes.Backend\Notes.Persistence\bin\Debug\net6.0\Notes.Persistence.pdb
+C:\work\forMyself\Notes.Backend\Notes.Persistence\bin\Debug\net6.0\Notes.Application.dll
+C:\work\forMyself\Notes.Backend\Notes.Persistence\bin\Debug\net6.0\Notes.Domain.dll
+C:\work\forMyself\Notes.Backend\Notes.Persistence\bin\Debug\net6.0\Notes.Application.pdb
+C:\work\forMyself\Notes.Backend\Notes.Persistence\bin\Debug\net6.0\Notes.Domain.pdb
+C:\work\forMyself\Notes.Backend\Notes.Persistence\obj\Debug\net6.0\Notes.Persistence.csproj.CopyComplete
+C:\work\forMyself\Notes.Backend\Notes.Persistence\obj\Debug\net6.0\Notes.Persistence.dll
+C:\work\forMyself\Notes.Backend\Notes.Persistence\obj\Debug\net6.0\refint\Notes.Persistence.dll
+C:\work\forMyself\Notes.Backend\Notes.Persistence\obj\Debug\net6.0\Notes.Persistence.pdb
+C:\work\forMyself\Notes.Backend\Notes.Persistence\obj\Debug\net6.0\ref\Notes.Persistence.dll

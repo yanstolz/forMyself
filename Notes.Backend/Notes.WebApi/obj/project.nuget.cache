@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BafVVu8zuBQaqOsPV8jcKpqbywUFpiLfIAcPIGKvHhxpkxizCEEaJETtp6Qfvhvnhdyzu5HjnFzSjSb9lMk1GQ==",
+  "dgSpecHash": "/bnO1X1U4rwZAl35IS/lwqCJIFVVM3ufWPc68AoRzByYygdtTSwPmWPLsMN1F9h5BWuUcc9No8SC3FVny59pKw==",
   "success": true,
   "projectFilePath": "C:\\work\\forMyself\\Notes.Backend\\Notes.WebApi\\Notes.WebApi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
