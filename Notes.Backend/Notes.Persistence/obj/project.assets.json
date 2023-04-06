@@ -371,6 +371,33 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "SQLite/3.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libsqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libsqlite3.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win7-x64/native/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          }
+        }
+      },
       "SQLitePCLRaw.core/2.1.4": {
         "type": "package",
         "dependencies": {
@@ -461,7 +488,8 @@
           "MediatR": "12.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection.Libraries": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.4",
-          "Notes.Domain": "1.0.0"
+          "Notes.Domain": "1.0.0",
+          "SQLite": "3.13.0"
         },
         "compile": {
           "bin/placeholder/Notes.Application.dll": {}
@@ -473,6 +501,10 @@
       "Notes.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MediatR": "12.0.1",
+          "SQLite": "3.13.0"
+        },
         "compile": {
           "bin/placeholder/Notes.Domain.dll": {}
         },
@@ -1031,6 +1063,27 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "SQLite/3.13.0": {
+      "sha512": "MJfRiz2p6aMVOxrxGMdVzhpzI0oxTgZSwC8eVuOpV8L7yYaFUu8q/OFYwv9P0/aZ/pdEu24O6gma6wZJMTun9A==",
+      "type": "package",
+      "path": "sqlite/3.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net45/SQLite.props",
+        "lib/netstandard1.0/_._",
+        "runtimes/linux-x64/native/libsqlite3.so",
+        "runtimes/osx-x64/native/libsqlite3.dylib",
+        "runtimes/win10-arm/nativeassets/uap10.0/sqlite3.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/sqlite3.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/sqlite3.dll",
+        "runtimes/win7-x64/native/sqlite3.dll",
+        "runtimes/win7-x86/native/sqlite3.dll",
+        "sqlite-version.txt",
+        "sqlite.3.13.0.nupkg.sha512",
+        "sqlite.nuspec"
+      ]
+    },
     "SQLitePCLRaw.core/2.1.4": {
       "sha512": "inBjvSHo9UDKneGNzfUfDjK08JzlcIhn1+SP5Y3m6cgXpCxXKCJDy6Mka7LpgSV+UZmKSnC8rTwB0SQ0xKu5pA==",
       "type": "package",
@@ -1204,8 +1257,10 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "MediatR >= 12.0.1",
       "Microsoft.EntityFrameworkCore.Sqlite.Core >= 7.0.4",
-      "Notes.Application >= 1.0.0"
+      "Notes.Application >= 1.0.0",
+      "SQLite >= 3.13.0"
     ]
   },
   "packageFolders": {
@@ -1251,9 +1306,17 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[12.0.1, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite.Core": {
             "target": "Package",
             "version": "[7.0.4, )"
+          },
+          "SQLite": {
+            "target": "Package",
+            "version": "[3.13.0, )"
           }
         },
         "imports": [

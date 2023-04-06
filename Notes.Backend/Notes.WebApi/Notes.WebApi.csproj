@@ -6,4 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="SQLite" Version="3.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Notes.Application\Notes.Application.csproj" />
+    <ProjectReference Include="..\Notes.Persistence\Notes.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>

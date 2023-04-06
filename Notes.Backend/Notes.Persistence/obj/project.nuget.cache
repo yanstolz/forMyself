@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZK5soni0D0lIXAVz7HK+wb1XAS0RMfx14GmqRg64dM7/Ohd2uneRF8J9z2K+eZ9NcqAfleiKzdUf8dAWDsZz2A==",
+  "dgSpecHash": "DzFerseVA+GF+cUrdYxBMLuqOjhOpRph9nYUN9oCTTMVZ/vldVtqLD1GVi/UqoYOkp5bAJfCBt8Kb5V6IMo8rg==",
   "success": true,
   "projectFilePath": "C:\\work\\forMyself\\Notes.Backend\\Notes.Persistence\\Notes.Persistence.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\YanStolz\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",
     "C:\\Users\\YanStolz\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\YanStolz\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\YanStolz\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

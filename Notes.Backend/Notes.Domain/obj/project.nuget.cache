@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "DWdMt04ALhzgYDUscISQpqty3kLIeJTzPzDDJ80ZHYTaGPMp6OtwjLA2P4AkVnbIsLSW0wYAV5S+hZOv98KYaw==",
+  "dgSpecHash": "8nJYWyYqeGIACpp3Syvz4bQZZfG9enPvATIyE0N2lSMrKaPDJZOL6GWzOTxcmiWVixpJeViJzKo8tPVa/1T2bw==",
   "success": true,
   "projectFilePath": "C:\\work\\forMyself\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\YanStolz\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\YanStolz\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\YanStolz\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",
     "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
     "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
     "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512"

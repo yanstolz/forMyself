@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6+OiJlpTElMPktQLctxBLiAfFJake1G7Jy0Zn+ARb6/E8izQygwBk0SEpqcZCTRbn8tA5Le3bJ/QpkOYSx79LA==",
+  "dgSpecHash": "6VGAA551Wz0zHxuGtJzoZ2FCjZyHvAhtz5P/f4jAaGIbp66F9poTmovu1ykDtHzD4T0zmuWTyEbyd2vyZQuXNw==",
   "success": true,
   "projectFilePath": "C:\\work\\forMyself\\Notes.Backend\\Notes.Application\\Notes.Application.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\YanStolz\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",
     "C:\\Users\\YanStolz\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
     "C:\\Users\\YanStolz\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
